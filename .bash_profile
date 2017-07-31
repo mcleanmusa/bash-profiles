@@ -1,9 +1,9 @@
-HPSA_ID="a-mcleanma"
-JUMPSERVER="dvc7402"
-HPSA_MIA="spm5590"
-HPSA_SPR="spm6590"
-HPSA_MIA_NEW="spm5591"
-HPSA_SPR_NEW="spm6591"
+HPSA_ID=""
+JUMPSERVER=""
+HPSA_MIA=""
+HPSA_SPR=""
+HPSA_MIA_NEW=""
+HPSA_SPR_NEW=""
 
 alias aws-accounts='grep Account ~/.aws/config | awk '\''{ print $5 " " $2 }'\'' | sed '\''s/\]//g'\'''
 alias aws-bastions='egrep BASTION ~/.ssh/config | awk '\''{ print $2 " " $3 }'\'''
